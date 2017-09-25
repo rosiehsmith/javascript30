@@ -78,11 +78,7 @@
     function setDate(){
       const now = new Date();
       const seconds = now.getSeconds();
-      var secondsDegrees = null;
-      if(seconds > 0){
-        secondsDegrees = ((seconds / 60) * 360) + 90;
-      }
-    
+      const secondsDegrees = ((seconds / 60) * 360) + 90;
       // if(seconds!==0){
       //   const secondsDegrees = ((seconds / 60) * 360) + 90;
       // }
